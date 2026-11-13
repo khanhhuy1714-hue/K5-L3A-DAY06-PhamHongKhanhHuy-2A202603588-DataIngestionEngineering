@@ -1,0 +1,20 @@
+[
+  {
+    "strategy": "A_fixed",
+    "num_chunks": 256,
+    "total_chars": 120243,
+    "min_chunk_len": 58,
+    "avg_chunk_len": 469.7,
+    "max_chunk_len": 500,
+    "ingest_seconds": 4.92
+  },
+  {
+    "strategy": "B_paragraph",
+    "num_chunks": 171,
+    "total_chars": 109056,
+    "min_chunk_len": 63,
+    "avg_chunk_len": 637.8,
+    "max_chunk_len": 799,
+    "ingest_seconds": 1.8
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "How does the textbook define an algorithm in Section 1.1?",
+    "expected_answer": "An algorithm is a sequence of precise instructions that enables computing.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 20,
+    "evidence_quote": "An algorithm is a sequence of precise instructions that enables computing.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question_type": "conditional",
+    "question": "In binary search on a sorted array of integers, what happens if the searched number is less than the middle element of the interval?",
+    "expected_answer": "The search interval is narrowed to the lower half; otherwise, it is narrowed to the upper half.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 20,
+    "evidence_quote": "If the number being searched is less than the integer in the middle of the interval, the interval is narrowed to the lower half.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Who is credited as the world's first computer programmer for her work on the Analytical Engine?",
+    "expected_answer": "Ada Lovelace, who used punched cards to create sequencing instructions for Charles Babbage's Analytical Engine.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 21,
+    "evidence_quote": "With her work on the Analytical Engine, Lovelace became the world’s first computer programmer.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Who invented dynamic programming in 1953, and how does the technique work?",
+    "expected_answer": "Richard Bellman invented dynamic programming in 1953, dividing complex problems into manageable subproblems, solving each, and storing the results.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 22,
+    "evidence_quote": "In 1953, Bellman invented dynamic programming,1  which is a mathematical optimization methodology and a technique for computer programming. With dynamic programming, complex problems are divided into more manageable subproblems.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "What are the four hardware components of a computer?",
+    "expected_answer": "Processor, memory, network, and storage.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 23,
+    "evidence_quote": "Hardware—which has four components, including processor, memory, network, and storage—is the computer component that enables computations.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "question": "Why did the ENIAC use vacuum tubes instead of silicon, and how did they represent binary digits?",
+    "expected_answer": "Completed in 1945 before silicon chips, ENIAC used vacuum tubes as memory: an off tube represented 0 and an on tube represented 1.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 23,
+    "evidence_quote": "Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers. When the “light” in the vacuum tube is off, the vacuum tube represents the number 0. When the “light” is on, the vacuum tube represents the number 1.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question_type": "conditional",
+    "question": "What are examples of problems that humans can handle better than computers, and tasks that neither humans nor computers can accurately perform?",
+    "expected_answer": "Humans handle subtle emotions and moral judgments in complex social situations better, while neither humans nor computers can accurately predict chaotic systems like long-term weather patterns.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": [24, 25],
+    "evidence_quote": [
+      "An example of a problem that humans can solve but computers struggle with is interpreting subtle emotions or making moral judgments in complex social situations.",
+      "there are tasks that neither computers nor humans can perform, such as accurately predicting chaotic systems like long-term weather patterns."
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "In Section 1.1 Computer Science, how many H-1B visa numbers are available annually in the regular pool and the master's exemption pool?",
+    "expected_answer": "65,000 visa numbers in the regular pool and an additional 20,000 master's exemption visa numbers each year, valid for three years.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 28,
+    "evidence_quote": "Each year, the U.S. Citizenship and Immigration Services accepts applications from individuals from other countries who compete for a pool of 65,000 visa numbers, as well as an additional pool of 20,000 master’s exemption visa numbers awarded that year and valid for a period of three years.",
+    "filter": {
+      "section": "1.1 Computer Science"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "question": "What real-world failure in October 2020 illustrated the row-limit problem of spreadsheet software?",
+    "expected_answer": "Public Health England failed to report 15,841 positive COVID-19 cases due to mismanaged row limits in the spreadsheet used.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 30,
+    "evidence_quote": "One such example occurred in October 2020 when Public Health England failed to report 15,841 positive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "In Section 1.2 Computer Science across the Disciplines, why is computer science generally considered an applied science rather than a natural science?",
+    "expected_answer": "Because computer science does not study natural objects and emphasizes invention or engineering rather than discovering natural phenomena.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 32,
+    "evidence_quote": "Computer science does not study natural objects, so to most, it would not be considered a natural science but rather an applied science. Unlike natural sciences such as biology, physics, and chemistry, which emphasize the discovery of natural phenomena, computer science often emphasizes invention or engineering.",
+    "filter": {
+      "section": "1.2 Computer Science across the Disciplines"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "What is information science according to Section 1.2?",
+    "expected_answer": "The interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 33,
+    "evidence_quote": "The interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies is called information science.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "What caused the Y2K problem, also known as the millennium bug?",
+    "expected_answer": "Computer scientists stored only the last two digits of the year instead of four when memory was expensive.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 36,
+    "evidence_quote": "The Y2K problem, also known as the “millennium bug,” is a good example of shortsighted decisions that allowed computer scientists to only store the last two digits of the year instead of four.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "In Section 1.3 Computer Science and the Future of Society, what is an adversarial attack on a neural network?",
+    "expected_answer": "A sample input (such as an image) designed to cause a system to behave problematically, such as tweaking a single pixel or placing stickers on road signs.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": [38, 39],
+    "evidence_quote": "An adversarial attack is a sample input (e.g., an image) that is designed to cause a system to behave problematically.",
+    "filter": {
+      "section": "1.3 Computer Science and the Future of Society"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "question": "How is digital redlining defined in the textbook?",
+    "expected_answer": "The practice of using technology, such as microtargeted ads incorporating zip codes or neighborhoods, to promote discrimination.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 41,
+    "evidence_quote": "This may result in digital redlining, which is the practice of using technology, such as targeted ads, to promote discrimination.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "What is decomposition in computational thinking?",
+    "expected_answer": "The analytical process of breaking down complex concepts or problems into smaller parts to analyze and solve them more effectively.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 51,
+    "evidence_quote": "The analytical process of breaking down complex concepts or problems into smaller parts",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question_type": "direct",
+    "question": "Who popularized the term computer science in 1961 and how did he define it?",
+    "expected_answer": "George E. Forsythe popularized the term in 1961, defining it as the theory of programming, numerical analysis, data processing, and the design of computer systems.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 22,
+    "evidence_quote": "The term computer science was popularized by George E. Forsythe in 1961. A mathematician who founded Stanford University’s computer science department, Forsythe defined computer science as “the theory of programming, numerical analysis, data processing, and the design of computer systems.”",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question_type": "paraphrase",
+    "question": "What does it mean for a computer to be Turing-complete?",
+    "expected_answer": "It shares the same fundamental model for computing results and has the ability to run any algorithm, unlike specialized devices such as scientific calculators.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 24,
+    "evidence_quote": "Almost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or Computationally Universal, as opposed to specialized computing devices such as scientific calculators) because they share the same fundamental model for computing results and every computer has the ability to run any algorithm.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question_type": "conditional",
+    "question": "Under what condition can a technological fix end up causing more problems than it resolves?",
+    "expected_answer": "Unless the process of applying technology to social and political problems is handled responsibly and with care to select the appropriate technology.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 41,
+    "evidence_quote": "Unless the process is handled responsibly, the “fix” may cause more problems than it resolves.",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question_type": "metadata_filter",
+    "question": "In Section 2.1 Computational Thinking, what are the three As of computational thinking and what does each phase represent?",
+    "expected_answer": "Abstraction (problem formulation), Automation (expressing the solution), and Analysis (solution execution and evaluation).",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 52,
+    "evidence_quote": "1. Abstraction: The initial step involves problem formulation. 2. Automation: Next, the focus shifts to expressing the solution. 3. Analysis: Finally, the process encompasses solution execution and evaluation.",
+    "filter": {
+      "section": "2.1 Computational Thinking"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question_type": "direct",
+    "question": "What is the social determination of technology?",
+    "expected_answer": "The belief that technologies are inherently neutral and that the people using technology are the ones who ultimately make it good or bad.",
+    "gold_source_id": "Introduction_To_Computer_Science_-_WEB",
+    "gold_page": 38,
+    "evidence_quote": "The belief that technologies are inherently neutral and that it is the people using technology who ultimately make it “good” or “bad” is considered social determination of technology.",
+    "filter": null
+  }
+]

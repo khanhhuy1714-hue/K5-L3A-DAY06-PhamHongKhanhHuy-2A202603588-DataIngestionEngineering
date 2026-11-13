@@ -1,0 +1,38 @@
+{
+  "A_fixed | dev": {
+    "total": 15,
+    "hit@1": "8/15 (53.3%)",
+    "hit@3": "10/15 (66.7%)",
+    "filter_compliance": "2/3 (66.7%)"
+  },
+  "A_fixed | test": {
+    "total": 5,
+    "hit@1": "0/5 (0.0%)",
+    "hit@3": "0/5 (0.0%)",
+    "filter_compliance": "1/1 (100.0%)"
+  },
+  "B_paragraph | dev": {
+    "total": 15,
+    "hit@1": "7/15 (46.7%)",
+    "hit@3": "14/15 (93.3%)",
+    "filter_compliance": "2/3 (66.7%)"
+  },
+  "B_paragraph | test": {
+    "total": 5,
+    "hit@1": "5/5 (100.0%)",
+    "hit@3": "5/5 (100.0%)",
+    "filter_compliance": "1/1 (100.0%)"
+  },
+  "C_paragraph_filter | dev": {
+    "total": 15,
+    "hit@1": "7/15 (46.7%)",
+    "hit@3": "14/15 (93.3%)",
+    "filter_compliance": "3/3 (100.0%)"
+  },
+  "C_paragraph_filter | test": {
+    "total": 5,
+    "hit@1": "5/5 (100.0%)",
+    "hit@3": "5/5 (100.0%)",
+    "filter_compliance": "1/1 (100.0%)"
+  }
+}
