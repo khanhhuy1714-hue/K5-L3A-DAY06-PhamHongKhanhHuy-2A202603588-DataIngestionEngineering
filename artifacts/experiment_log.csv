@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+strategy,chunking,chunk_size,overlap,metadata_filter,hypothesis,num_chunks,total_chars,ingest_seconds,dev_hit1,dev_hit3,dev_filter_compliance,test_hit1,test_hit3,test_filter_compliance
+A_fixed,fixed_size,500,50,none,"Baseline cat cung 500 ky tu, de bi cat ngang cau/bang chung",256,120243,4.92,8/15 (53.3%),10/15 (66.7%),2/3 (66.7%),0/5 (0.0%),0/5 (0.0%),1/1 (100.0%)
+B_paragraph,by_paragraph,800,0,none,"Chunk theo doan giu tron y va bang chung tot hon A",171,109056,1.80,7/15 (46.7%),14/15 (93.3%),2/3 (66.7%),5/5 (100.0%),5/5 (100.0%),1/1 (100.0%)
+C_paragraph_filter,by_paragraph,800,0,section,"Giu chunking cua B va loc theo section giup tuan thu pham vi 100%",171,109056,0.00,7/15 (46.7%),14/15 (93.3%),3/3 (100.0%),5/5 (100.0%),5/5 (100.0%),1/1 (100.0%)
